@@ -2,23 +2,34 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
-h1{
-font-size: 50px;    
+
+h1 {
+    font-size: 50px;
 }
-.orange-color{
+
+h2 {
+    font-size: 40px;
+}
+
+.orange-color {
     color: orange;
 }
-section{
+
+.flexible-container {
     display: flex;
+    margin-bottom: 100px;
 }
-.first-part{
+
+.first-part {
     width: 50%;
     padding-left: 5%;
 }
-.first-part img{
+
+.first-part img {
     width: 100%;
 }
-.hire-me{
+
+.hire-me {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
@@ -26,7 +37,30 @@ section{
     color: white;
     font-weight: 700;
 }
-.top-banner{
-    background-image:url(./images/top-banner.png);
+
+.top-banner {
+    background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.ex-flex {
+    display: flex;
+    padding-left: 150px;
+}
+
+.ex-pic-width {
+    width: 40%;
+    padding-left: 20px;
+    margin-right: 5%;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 7px solid blue;
+
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
